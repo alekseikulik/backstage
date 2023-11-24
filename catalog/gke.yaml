@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: devops
+  description: DevOps GKE cluster
+spec:
+  type: cluster
+  owner: sip-team
+  system: sip-resources

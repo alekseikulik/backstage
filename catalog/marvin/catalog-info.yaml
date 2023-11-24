@@ -24,9 +24,6 @@ kind: Resource
 metadata:
   name: devops-datastore
   description: Stores staging details
-  tags:
-    - datastore
-    - database
   links:
     - url: https://console.cloud.google.com/datastore/databases?referrer=search&orgonly=true&project=devops-oi&supportedpurview=organizationId
       title: Datastore Dashboard
