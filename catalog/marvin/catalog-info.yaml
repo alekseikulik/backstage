@@ -28,6 +28,9 @@ spec:
   type: service
   lifecycle: production
   owner: sip-team
+  system: sip-resources
+  dependsOn:
+    - resource:default/devops-datastore
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
