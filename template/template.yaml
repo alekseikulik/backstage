@@ -3,10 +3,10 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: ruby-on-rails-template
-  title: Example Ruby on Rails Template
-  description: An example template for the scaffolder that creates a simple Ruby on Rails service
+  title: Ruby on Rails Template
+  description: Template for the scaffolder that creates a simple Ruby on Rails service
 spec:
-  owner: user:guest
+  owner: sip-team
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
