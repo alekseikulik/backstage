@@ -1,5 +1,22 @@
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sip
+  description: Everything related to SIP
+spec:
+  owner: sip-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: sip-resources
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: sip-team
+  domain: sip
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: marvin
@@ -11,3 +28,13 @@ spec:
   type: service
   lifecycle: production
   owner: sip-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: devops-datastore
+  description: Stores staging details
+spec:
+  type: database
+  owner: sip-team
+  system: sip-resources
