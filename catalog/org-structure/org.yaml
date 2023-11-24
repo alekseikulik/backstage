@@ -1,0 +1,42 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sip-team
+  description: The Security Infrastructure Performance group
+spec:
+  type: team
+  profile:
+    displayName: SIP Team
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: test-io
+  description: Test IO Gmbh
+spec:
+  type: team
+  profile:
+    displayName: Test IO Gmbh
+  children: [ sip-team ]
+  members: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sip
+  description: Everything related to SIP
+spec:
+  owner: sip-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: sip-resources
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: sip-team
+  domain: sip
