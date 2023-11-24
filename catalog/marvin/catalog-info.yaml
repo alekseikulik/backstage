@@ -38,3 +38,15 @@ spec:
   type: database
   owner: sip-team
   system: sip-resources
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sip-team
+  description: The Security Infrastructure Performance group
+spec:
+  type: team
+  profile:
+    displayName: SIP Team
+  children: []
+  members: []
