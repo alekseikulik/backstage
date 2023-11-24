@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: marvin
+  description: This service manage our stagings
+  tags:
+    - python
+    - slack-bot
+spec:
+  type: service
+  lifecycle: production
+  owner: sip-team
