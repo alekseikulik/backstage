@@ -26,5 +26,6 @@ metadata:
   description: Stores staging details
 spec:
   type: database
+  lifecycle: production
   owner: sip-team
   system: sip-resources
