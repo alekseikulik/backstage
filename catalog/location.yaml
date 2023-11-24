@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: org-data
+spec:
+  type: url
+  targets:
+    - https://github.com/alekseikulik/backstage/blob/main/catalog/org-structure/groups.yaml
+    - https://github.com/alekseikulik/backstage/blob/main/catalog/org-structure/domains.yaml
+    - https://github.com/alekseikulik/backstage/blob/main/catalog/org-structure/systems.yaml
