@@ -24,6 +24,10 @@ metadata:
   tags:
     - python
     - slack-bot
+  links:
+    - url: https://github.com/test-IO/bot-marvin
+      title: Repository
+      icon: GitHub
 spec:
   type: service
   lifecycle: production
