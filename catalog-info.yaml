@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: marvin
-  description: This service manage our stagings
+  description: This service helm us manage our stagings
   tags:
     - python
     - slack-bot
