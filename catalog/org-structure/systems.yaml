@@ -3,7 +3,25 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: sip-resources
-  description: Handy tools to keep artists in the loop
+  description: SIP resoures
+spec:
+  owner: sip-team
+  domain: sip
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: a-testio
+  description: Staging environment
+spec:
+  owner: sip-team
+  domain: sip
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: b-testio
+  description: Staging environment
 spec:
   owner: sip-team
   domain: sip
