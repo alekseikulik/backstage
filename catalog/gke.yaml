@@ -6,5 +6,6 @@ metadata:
   description: DevOps GKE cluster
 spec:
   type: cluster
+  lifecycle: production
   owner: sip-team
   system: sip-resources
