@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cirro
+  description: Cirro core
+  tags:
+    - ruby
+    - rails
+  links:
+    - url: https://github.com/test-IO/cirro
+      title: Repository
+      icon: GitHub
+spec:
+  type: service
+  lifecycle: production
+  owner: dev-team
