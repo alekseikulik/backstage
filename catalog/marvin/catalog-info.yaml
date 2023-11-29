@@ -18,7 +18,7 @@ spec:
   system: sip-resources
   dependsOn:
     - resource:default/devops-datastore
-    - resource:default/devops
+    - resource:default/devops-gke
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource

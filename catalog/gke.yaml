@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: devops
+  name: devops-gke
   description: DevOps GKE cluster
 spec:
   type: cluster
