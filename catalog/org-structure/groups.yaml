@@ -2,6 +2,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+  name: test-io
+  description: Test IO Gmbh
+spec:
+  type: team
+  profile:
+    displayName: Test IO Gmbh
+  children: [ sip-team, dev-team ]
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
   name: sip-team
   description: The Security Infrastructure Performance group
 spec:
@@ -14,11 +26,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: test-io
-  description: Test IO Gmbh
+  name: dev-team
+  description: The Security Infrastructure Performance group
 spec:
   type: team
   profile:
-    displayName: Test IO Gmbh
-  children: [ sip-team ]
+    displayName: Dev Team
+  children: []
   members: []
